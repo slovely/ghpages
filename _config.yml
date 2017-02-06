@@ -32,7 +32,7 @@ category_dir: categories
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
