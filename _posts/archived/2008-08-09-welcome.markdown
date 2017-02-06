@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Welcome!"
+date: 2008-08-09 0400
+comments: true
+disqus_identifier: 3
+categories: []
+redirect_from: "/archive/2008-08-09-welcome.aspx/"
+---
+Hello and welcome to the re-launch of my blog site.  My previous blog
+was created using [WordPress](http://www.wordpress.org "WordPress")
+which, although a great blogging platform, is written in PHP.  I decided
+that I wanted more control over my blog, so I've decided to switch to
+using [SubText](http://www.subtextproject.com/) which is written in
+.NET.  So far I've not had any need to modify anything though, I've just
+created a theme based on [Andreas Viklund's](http://andreasviklund.com/)
+template,
+[Andreas09](http://andreasviklund.com/blog/webdesign/new-template-andreas09/).
+
+This blog will contain mainly .NET related material, but I may post
+other random stuff if I think it's interesting (to me, at least).  If
+you do find something useful, or you need further information, please
+leave a comment.
+
+Thanks for visiting!
+

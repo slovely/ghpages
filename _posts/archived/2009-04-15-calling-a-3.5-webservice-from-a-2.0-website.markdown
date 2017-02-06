@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Calling a 3.5 WebService from a 2.0 WebSite"
+date: 2009-04-15 0400
+comments: true
+disqus_identifier: 21
+categories: [ASP.NET]
+redirect_from: "/archive/2009-04-15-calling-a-3.5-webservice-from-a-2.0-website.aspx/"
+---
+This week I upgraded a web service project to v3.5 of the .Net
+framework.  However, another website then stopped working as it called
+the web service using JavaScript (by referencing the client-side proxy
+created by the Microsoft Ajax Library).  After a little bit of debugging
+I found that the response from a 3.5 webservice is different to a v2.0
+service.  My webservice just returned a Guid.  When the service was
+using v2.0 the response just contained a guid.  Once it was upgraded to
+v3.5 however, it returned an JSON object with a property called ‘d’ and
+the value of ‘d’ was the guid.
+
+##### How to fix
+
+There are a couple of ways to get around this problem.  The easiest is
+probably to just upgrade the website to 3.5 as well, as then the
+serialisation of the object will be done for you automatically. 
+However, this wasn’t an option for me.  Instead I modified my JavaScript
+callback method to work with either response format.  The code changed
+from this:
+
+```csharp
+function onCallback(result, context)
+{
+    var guid = result;
+    //do further processing here...
+}
+```
+
+to this:
+
+```csharp
+function onCallback(result, context)
+{
+    var guid = result.d ? result.d : result;
+    //do further processing here...
+}
+```
+
+ 
+
+All we are doing is checking for the existence of the ‘d’ property and
+either getting the result from there or just using the result itself. 
+The benefit of this simple change is that the callback method will
+continue to work for any combination of v2.0 and v3.5 websites and
+services.
+
+Hopefully this will be useful for somebody!  Posting it here so that I
+don’t forget about it myself in the future!
+

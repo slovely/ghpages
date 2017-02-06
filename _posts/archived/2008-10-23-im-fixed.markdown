@@ -1,0 +1,13 @@
+---
+layout: post
+title: "I'm fixed"
+date: 2008-10-23 0400
+comments: true
+disqus_identifier: 10
+categories: [Personal]
+redirect_from: "archive/2008-10-23-im-fixed.aspx/"
+---
+I have pretty much recovered from my broken hand now, and have
+(thankfully!) had the cast removed.  I have enough movement left to type
+again, so I'm now going to write up my next post.
+

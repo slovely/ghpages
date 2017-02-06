@@ -1,0 +1,17 @@
+---
+layout: post
+title: "I'm Broken!"
+date: 2008-10-07 0400
+comments: true
+disqus_identifier: 9
+categories: [Personal]
+redirect_from: "/archive/2008-10-07-im-broken.aspx/"
+---
+Unfortunately I suffered two broken bones in my hand whilst playing
+football last week.  This means that my follow-on post about using
+mixin's with DynamicProxy will have to wait for a few weeks as typing
+causes my hand to ache quite quickly!  Fortunately it's only my left
+hand, so I can just about manage most tasks!  I should be out of plaster
+in 3-4 weeks from now - I hope anyway, as it is already driving me
+crazy!
+
