@@ -5,7 +5,7 @@ date: 2008-09-04 0400
 comments: true
 disqus_identifier: 7
 categories: [ASP.NET]
-redirect_from: "/archive/2008-09-04-virtualpathutility-easily-forgotten-class.aspx/"
+redirect_from: "/archive/2008/09/04/virtualpathutility-easily-forgotten-class.aspx/"
 ---
 This post is really just to remind myself of a class that I always seem
 to forget! 

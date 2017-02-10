@@ -5,7 +5,7 @@ date: 2008-11-23 0400
 comments: true
 disqus_identifier: 15
 categories: []
-redirect_from: "/archive/2008-11-23-ddd7-my-thoughts.aspx/"
+redirect_from: "/archive/2008/11/23/ddd7-my-thoughts.aspx/"
 ---
 Yesterday, I attended my first [DeveloperDay](http://developerday.co.uk)
 at the Microsoft Campus in Reading.  Below are the sessions that I

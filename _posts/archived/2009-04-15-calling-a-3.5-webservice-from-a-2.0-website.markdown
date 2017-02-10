@@ -5,7 +5,7 @@ date: 2009-04-15 0400
 comments: true
 disqus_identifier: 21
 categories: [ASP.NET]
-redirect_from: "/archive/2009-04-15-calling-a-3.5-webservice-from-a-2.0-website.aspx/"
+redirect_from: "/archive/2009/04/15/calling-a-3.5-webservice-from-a-2.0-website.aspx/"
 ---
 This week I upgraded a web service project to v3.5 of the .Net
 framework.  However, another website then stopped working as it called

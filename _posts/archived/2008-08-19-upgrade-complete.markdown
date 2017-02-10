@@ -5,7 +5,7 @@ date: 2008-08-19 0400
 comments: true
 disqus_identifier: 6
 categories: [SubText]
-redirect_from: "/archive/2008-08-19-upgrade-complete.aspx/"
+redirect_from: "/archive/2008/08/19/upgrade-complete.aspx/"
 ---
 As mentioned in my last post, I have upgraded my blog to the new version
 of [SubText](http://www.subtextproject.com/) (v2).  It all went

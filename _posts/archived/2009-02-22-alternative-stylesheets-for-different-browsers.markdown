@@ -5,7 +5,7 @@ date: 2009-02-22 0400
 comments: true
 disqus_identifier: 18
 categories: []
-redirect_from: "/archive/2009-02-22-alternative-stylesheets-for-different-browsers.aspx/"
+redirect_from: "/archive/2009/02/22/alternative-stylesheets-for-different-browsers.aspx/"
 ---
 On a site I've been working on recently various [Css
 Hacks](http://www.webcredible.co.uk/user-friendly-resources/css/hacks-browser-detection.shtml)

@@ -5,6 +5,7 @@ date: 2008-10-23 0400
 comments: true
 disqus_identifier: 11
 categories: [ASP.NET,ASP.NET Ajax]
+redirect_from: "/archive/2008/10/23/ajax-pagemethods-with-cookie-less-sessions.aspx/"
 ---
 Earlier this week I had to implement an auto-complete textbox (ala
 Google Suggest) in a web application.  As much as I wanted to use the

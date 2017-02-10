@@ -5,7 +5,7 @@ date: 2008-11-20 0400
 comments: true
 disqus_identifier: 14
 categories: [ASP.NET Ajax,Controls]
-redirect_from: "/archive/2008-11-20-autotabextender-ajax-control.aspx/"
+redirect_from: "/archive/2008/11/20/autotabextender-ajax-control.aspx/"
 ---
 I have just uploaded my AutoTabExtender control to my [Projects
 page](http://www.simonlovely.com/Projects.aspx).  Please feel free to

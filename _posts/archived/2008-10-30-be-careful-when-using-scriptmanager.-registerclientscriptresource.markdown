@@ -5,7 +5,7 @@ date: 2008-10-30 0400
 comments: true
 disqus_identifier: 12
 categories: [ASP.NET]
-redirect_from: "/archive/2008-10-30-be-careful-when-using-scriptmanager.-registerclientscriptresource.aspx/"
+redirect_from: "/archive/2008/10/30/be-careful-when-using-scriptmanager.-registerclientscriptresource.aspx/"
 ---
 I ran into a problem with registering a client script resource this week
 which had me confused for a while.  I had an existing custom control

@@ -5,7 +5,7 @@ date: 2012-07-06 0400
 comments: true
 disqus_identifier: 22
 categories: [MVC,Patterns]
-redirect_from: "/archive/2012-07-06-multiple-submit-buttons-on-an-asp.net-mvc-form.aspx/"
+redirect_from: "/archive/2012/07/06/multiple-submit-buttons-on-an-asp.net-mvc-form.aspx/"
 ---
 Wow, well over 3 years since a blog post!
 

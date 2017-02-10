@@ -5,7 +5,7 @@ date: 2009-04-04 0400
 comments: true
 disqus_identifier: 20
 categories: [ASP.NET,MVC]
-redirect_from: "/archive/2009-04-04-using-in-memory-sqlite-database-for-testing-with-fluentnhibernate.aspx/"
+redirect_from: "/archive/2009/04/04/using-in-memory-sqlite-database-for-testing-with-fluentnhibernate.aspx/"
 ---
 I’ve been playing with a little bit of TDD with FluentNHibernate and the
 MVC Framework lately and I had a few issues trying to get unit tests

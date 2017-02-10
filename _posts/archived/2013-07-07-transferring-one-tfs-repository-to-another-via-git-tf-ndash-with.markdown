@@ -5,7 +5,7 @@ date: 2013-07-07 0400
 comments: true
 disqus_identifier: 23
 categories: [Git,TFS]
-redirect_from: "/archive/2013-07-07-transferring-one-tfs-repository-to-another-via-git-tf-ndash-with.aspx/"
+redirect_from: "/archive/2013/07/07/transferring-one-tfs-repository-to-another-via-git-tf-ndash-with.aspx/"
 ---
 Recently a client needed to migrate a large TFS repository to a new
 machine, and to a later version of TFS.  They tried to follow the

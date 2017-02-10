@@ -5,7 +5,7 @@ date: 2014-11-07 0400
 comments: true
 disqus_identifier: 26
 categories: [TypeScript,.NET,TypeLite]
-redirect_from: "/archive/2014-11-07-typelite-has-gone-v1.0.aspx/"
+redirect_from: "/archive/2014/11/07/typelite-has-gone-v1.0.aspx/"
 ---
 > This is a series of posts about
 > TypeLite/[TypeScript](http://www.typescriptlang.org/). The parts are:

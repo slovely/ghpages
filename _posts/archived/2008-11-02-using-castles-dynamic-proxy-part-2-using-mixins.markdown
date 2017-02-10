@@ -5,7 +5,7 @@ date: 2008-11-02 0400
 comments: true
 disqus_identifier: 13
 categories: [Patterns]
-redirect_from: "/archive/2008-11-02-using-castles-dynamic-proxy-part-2-using-mixins.aspx/"
+redirect_from: "/archive/2008/11/02/using-castles-dynamic-proxy-part-2-using-mixins.aspx/"
 ---
 As promised, this is my follow up post to [this
 post](http://blog.simonlovely.com/archive/2008/09/28/using-castles-dynamic-proxy-to-enable-lazy-loading.aspx "Using Castle's Dynamic Proxy to Enable Lazy Loading"). 

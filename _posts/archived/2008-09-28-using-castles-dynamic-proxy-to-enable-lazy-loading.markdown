@@ -5,7 +5,7 @@ date: 2008-09-28 0400
 comments: true
 disqus_identifier: 8
 categories: [Patterns]
-redirect_from: "/archive/2008-09-28-using-castles-dynamic-proxy-to-enable-lazy-loading.aspx/"
+redirect_from: "/archive/2008/09/28/using-castles-dynamic-proxy-to-enable-lazy-loading.aspx/"
 ---
 Many enterprise-level applications try to use POCO classes for their
 entities to enable a clean separation of concerns between business logic

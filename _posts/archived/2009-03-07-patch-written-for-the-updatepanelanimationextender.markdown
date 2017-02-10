@@ -5,7 +5,7 @@ date: 2009-03-07 0400
 comments: true
 disqus_identifier: 19
 categories: [ASP.NET Ajax,Controls]
-redirect_from: "/archive/2009-03-07-patch-written-for-the-updatepanelanimationextender.aspx/"
+redirect_from: "/archive/2009/03/07/patch-written-for-the-updatepanelanimationextender.aspx/"
 ---
 UPDATE: This patch was finally accepted!
 ----------------------------------------

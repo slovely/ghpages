@@ -5,7 +5,7 @@ date: 2008-11-26 0400
 comments: true
 disqus_identifier: 16
 categories: [ASP.NET,MVC]
-redirect_from: "/archive/2008-11-26-post-redirect-get-pattern-in-mvc.aspx/"
+redirect_from: "/archive/2008/11/26/post-redirect-get-pattern-in-mvc.aspx/"
 ---
 I found a good write-up of the
 [PRG](http://blog.eworldui.net/post/2008/05/ASPNET-MVC---Using-Post2c-Redirect2c-Get-Pattern.aspx)

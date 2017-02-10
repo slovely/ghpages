@@ -5,7 +5,7 @@ date: 2014-05-27 0400
 comments: true
 disqus_identifier: 24
 categories: [.NET,Hacks]
-redirect_from: "/archive/2014-05-27-adjust-sql-connection-string-at-runtime.aspx/"
+redirect_from: "/archive/2014/05/27/adjust-sql-connection-string-at-runtime.aspx/"
 ---
 Recently I needed the ability to modify the current database for an
 application at runtime.  There are lots of ways of doing this, for

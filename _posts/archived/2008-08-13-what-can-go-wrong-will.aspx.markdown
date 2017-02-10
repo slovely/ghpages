@@ -5,7 +5,7 @@ date: 2008-08-13 0400
 comments: true
 disqus_identifier: 5
 categories: [SubText]
-redirect_from: "/archive/2008-08-13-what-can-go-wrong-will.aspx/"
+redirect_from: "/archive/2008/08/13/what-can-go-wrong-will.aspx/"
 ---
 Just a few days after I finally moved my blog over to
 [SubText](http://wwww.subtextproject.com) 1.95, they released version
