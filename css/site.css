@@ -1,0 +1,17 @@
+.main-content .archives h2.year{
+    font-weight: 300;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.main-content .archives .meta{
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+.main-content .archives h3.title {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 400;
+}
