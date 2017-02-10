@@ -4,7 +4,7 @@ title: "Cannot convert type &lsquo;ASP.login_aspx&rsquo; to &lsquo;System.Web. U
 date: 2008-08-09 0400
 comments: true
 disqus_identifier: 4
-redirect_from: "/archive/2008-08-09-cannot-convert-type.aspx.markdown.aspx/"
+redirect_from: "/archive/2008/08/09/cannot-convert-type.aspx/"
 categories: [ASP.NET]
 ---
 Ran into this problem with a website last week.  It slowed me down for a

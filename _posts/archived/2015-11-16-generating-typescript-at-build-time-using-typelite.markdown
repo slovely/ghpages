@@ -5,7 +5,7 @@ date: 2015-11-16 0400
 comments: true
 disqus_identifier: 27
 categories: [.NET,TypeScript,TypeLite,ASP.NET]
-redirect_from: "/archive/2015-11-16-generating-typescript-at-build-time-using-typelite.aspx.html/"
+redirect_from: "/archive/2015/11/16/generating-typescript-at-build-time-using-typelite.aspx/"
 ---
 > This is a series of posts about
 > TypeLite/[TypeScript](http://www.typescriptlang.org/). The parts are:
