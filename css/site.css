@@ -32,4 +32,10 @@ article .meta {
 .meta .date:before { font: 1em FontAwesome;content: "\f073" }
 .meta .tags:before { font: 1em FontAwesome;content: "\f02c" }
 
-
+#page-navigation {
+    font-family: arial;
+    font-size: small;
+    width: 100%;
+}
+#page-navigation div { display: inline-block }
+#page-navigation div.next { float: right }
