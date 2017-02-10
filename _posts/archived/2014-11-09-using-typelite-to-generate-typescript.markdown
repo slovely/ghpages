@@ -5,7 +5,7 @@ date: 2014-11-07 0400
 comments: true
 disqus_identifier: 25
 categories: [ASP.NET,.NET,TypeScript,TypeLite]
-redirect_from: "/archive/2014/11/07/using-typelite-to-generate-typescript.aspx/"
+redirect_from: "/archive/2014/11/09/using-typelite-to-generate-typescript.aspx/"
 ---
 > This is a series of posts about
 > TypeLite/[TypeScript](http://www.typescriptlang.org/). The parts are:
