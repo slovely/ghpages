@@ -20,3 +20,16 @@
     font-size: 0.9em;
     font-weight: 400;
 }
+
+article .meta {
+    color: #999;
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 1.2em;
+    padding-bottom: 3px;
+}
+
+.meta .date:before { font: 1em FontAwesome;content: "\f073" }
+.meta .tags:before { font: 1em FontAwesome;content: "\f02c" }
+
+
