@@ -1,3 +1,8 @@
+.page-header .project-name a, .page-header .project-name a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
 .main-content .archives h2.year{
     font-weight: 300;
     border-bottom: 1px solid #ddd;
