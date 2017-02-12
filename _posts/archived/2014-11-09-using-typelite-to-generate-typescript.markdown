@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Part II - Using TypeLite to Generate TypeScript"
-date: 2014-11-07 0400
+date: 2014-11-09 0400
 comments: true
 disqus_identifier: 25
 categories: [ASP.NET,.NET,TypeScript,TypeLite]
@@ -9,18 +9,12 @@ redirect_from: "/archive/2014/11/09/using-typelite-to-generate-typescript.aspx/"
 ---
 > This is a series of posts about
 > TypeLite/[TypeScript](http://www.typescriptlang.org/). The parts are:
-> \
-> [Part
-> I](http://blog.simonlovely.com/archive/2014/11/07/typelite-has-gone-v1.0.aspx):
-> TypeLite has gone v1.0 *- Video demonstrating what we are doing* \
-> [Part
-> II](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx)
-> (this part): Using TypeLite to Generate TypeScript *- Building the
-> TypeScript generator* \
-> [Part
-> III](http://blog.simonlovely.com/archive/2015/11/16/generating-typescript-at-build-time-using-typelite.aspx):
-> Generating TypeScript at build-time using TypeLite *- Automatically
-> regenerating the TypeScript on each build*
+> 
+> [Part I](/archive/2014/11/07/typelite-has-gone-v1.0/): TypeLite has gone v1.0 *- Video demonstrating what we are doing*
+>
+> [Part II](/archive/2014/11/09/using-typelite-to-generate-typescript/) (this part): Using TypeLite to Generate TypeScript *- Building the TypeScript generator*
+>
+> [Part III](/archive/2015/11/16/generating-typescript-at-build-time-using-typelite/): Generating TypeScript at build-time using TypeLite *- Automatically regenerating the TypeScript on each build*
 
 With webpages becoming more interactive and feature-rich by the day,
 like most developers, I’m finding more and more of my code I write is
@@ -32,13 +26,13 @@ server.  If a property is renamed on the server, the compiler won’t help
 me find all the places in the JavaScript that I’ve not updated (yes,
 yes, of course ReSharper can help with this, but it’s not perfect).
 
-#### There must be a better way…
+### There must be a better way…
 
 What I really want is when a property is changed (renamed, deleted,
 whatever) on an object that is serialised to the client, when I rebuild
 I want to see any errors that it has caused in the client code.
 
-#### One weird trick for success…
+### One weird trick for success…
 
 Having recently worked on a large Single Page Application, I introduced
 a library called [TypeLite](https://bitbucket.org/LukasKabrt/typelite)
@@ -50,7 +44,7 @@ usage, [read the docs](http://type.litesolutions.net/Tutorials)).
 However, this didn’t quite do what I wanted (and I just don’t like T4)
 so I created a console app and using the TypeLite API directly. 
 
-#### Here’s what I did…
+### Here’s what I did…
 
 *(You can follow along with my example using the repository
 at*[*https://github.com/slovely/TypeScriptSample*](https://github.com/slovely/TypeScriptSample "https://github.com/slovely/TypeScriptSample")*. 
@@ -162,7 +156,7 @@ assembly, and inside
 [enums.ts](https://github.com/slovely/TypeScriptSample/blob/4ec67d241f54e2b13caddf53a66327d2d6af1fb1/src/TypeScriptSample.Web/App/server/enums.ts)
 their is a translation of the server-side MaritalStatus enum!
 
-#### Putting this to use
+### Putting this to use
 
 In the web application there’s a simple TypeScript file that retrieves a
 list of Person objects from a WebAPI controller using ajax.  The current

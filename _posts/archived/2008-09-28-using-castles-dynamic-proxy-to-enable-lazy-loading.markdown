@@ -50,7 +50,7 @@ the OrderItems collection.  In this example I will use
 [DynamicProxy](http://www.castleproject.org/dynamicproxy/index.html)
 from the [Castle Project](http://www.castleproject.org/).
 
-##### Step 1 - Remove the data access code from the Order object
+### Step 1 - Remove the data access code from the Order object
 
 Change your entity to remove any code that try's to load the child
 objects.  Your final class should look something like:
@@ -75,7 +75,7 @@ public class Order
 Don't worry that the \_*items* field is never instantiated - that will
 be rectified later.
 
-##### Step 2 - Modify the *OrderRepository* to use a proxy object
+### Step 2 - Modify the *OrderRepository* to use a proxy object
 
 Somewhere in your repository a new *Order* object will be created and
 it's properties set from the data store.  This will need to be changed
@@ -121,7 +121,7 @@ The second parameter to *CreateClassProxy* specifies the class that will
 end up loading the *OrderItems* for us.  This will be covered in the
 next step.
 
-##### Step 3 - Create the interceptor class
+### Step 3 - Create the interceptor class
 
 The interceptor class contains a method, *Intercept()*,  that will be
 called every time a method on the base class (in our case the *Order*
@@ -174,7 +174,7 @@ and returned in the *IList*.  **However, if you try this now you will
 get a null reference exception!  The next step explains what to do and
 why!**
 
-##### Step 4 - Make the methods we need to intercept *virtual*
+### Step 4 - Make the methods we need to intercept *virtual*
 
 This is a very easy step, the reason for me including it separately is
 that it is also an easy one to forget to do!

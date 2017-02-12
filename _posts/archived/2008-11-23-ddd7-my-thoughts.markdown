@@ -11,7 +11,7 @@ Yesterday, I attended my first [DeveloperDay](http://developerday.co.uk)
 at the Microsoft Campus in Reading.  Below are the sessions that I
 attended and my thoughts on them:
 
-#### TDD and Hard-To-Test Code - Ian Cooper
+### TDD and Hard-To-Test Code - Ian Cooper
 
 The first session of the day was about testing code which is hard to
 test.  The speaker, Ian Cooper, clearly had a lot of experience and
@@ -24,7 +24,7 @@ across by that name before (see
 [here](http://ayende.com/Blog/archive/2007/03/03/The-Production-Value-of-Seams.aspx)
 for a good example), although it is basically the Open/Closed Principle.
 
-#### ASP.NET MVC - Show me the code - [Steve Sanderson](http://blog.codeville.net/)
+### ASP.NET MVC - Show me the code - [Steve Sanderson](http://blog.codeville.net/)
 
 Having followed MVC from the first preview, I was very interested in
 this presentation.  The format was very much about code not PowerPoint
@@ -39,7 +39,7 @@ hadn't already used MVC will have downloaded it by now!  He sold it
 Steve also has an [MVC book](http://apress.com/community/mvc) coming out
 soon - definitely one for the wish list!
 
-#### ASP.NET 4.0 - TOP SECRET - [Phil Winstanley](http://weblogs.asp.net/plip/archive/tags/DDD/default.aspx) and [Dave Sussman](http://aspadvice.com/blogs/dsussman/default.aspx)
+### ASP.NET 4.0 - TOP SECRET - [Phil Winstanley](http://weblogs.asp.net/plip/archive/tags/DDD/default.aspx) and [Dave Sussman](http://aspadvice.com/blogs/dsussman/default.aspx)
 
 This was my most eagerly anticipated session.  However, it ended up
 being a bit of a disappointment.  The two speakers were unable to talk
@@ -50,7 +50,7 @@ rush.  I didn't feel that there was very much 'meat' in the talk, and it
 was only the ability of the presenters to make the audience laugh that
 kept it going.
 
-#### Oslo, Microsoft's vision for the future of Modelling - Robert Hogg
+### Oslo, Microsoft's vision for the future of Modelling - Robert Hogg
 
 An interesting session about Oslo, something I didn't know too much
 about.  The subject was clearly too big to talk about in just one hour,
@@ -62,7 +62,7 @@ Architects and Dev's could make a huge difference to the future of the
 industry if they can pull it off.  Oh, and the modelling tool Quadrant
 looks like it could become a showpiece WPF application.  Very shiny!
 
-#### The bleeding edge of web - [Helen Emerson](http://helephant.com)
+### The bleeding edge of web - [Helen Emerson](http://helephant.com)
 
 This was a good presentation to finish the day on, as my brain was
 starting to hurt!  Didn't contain anything earth-shattering, but was an
@@ -72,7 +72,7 @@ years for all browsers to implement them (I'm looking at you IE!). 
 Overall, a fun talk which Helen improved by getting some good audience
 participation.
 
-#### Overall Thoughts
+### Overall Thoughts
 
 I enjoyed my first DeveloperDay overall.  I think in the future I will
 try to attend the sessions that I'm unfamiliar with, as I believe I will

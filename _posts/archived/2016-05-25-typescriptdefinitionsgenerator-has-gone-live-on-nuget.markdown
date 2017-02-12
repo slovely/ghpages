@@ -19,5 +19,5 @@ generation of Web API action methods, and SignalR hubs.
 For more info, check the readme on
 [https://github.com/slovely/TypeScriptDefinitionsGenerator](https://github.com/slovely/TypeScriptDefinitionsGenerator "https://github.com/slovely/TypeScriptDefinitionsGenerator"). 
 I hope to find the time to add more documentation soon, but please ask
-questions here or on github if you have problems.
+questions on github if you have problems.
 

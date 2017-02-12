@@ -63,10 +63,10 @@ when the async postback has completed:
     }
 ```
 
-As you can see, once this method is called the \_onUpdating animation is
-cancelled immediately by the call to the *quit()* method.  What I needed
+As you can see, once this method is called the `_onUpdating` animation is
+cancelled immediately by the call to the `quit()` method.  What I needed
 was a way to check that the animation has finished before playing the
-\_onUpdated animation, and if not, wait until it has finished.  The
+`_onUpdated` animation, and if not, wait until it has finished.  The
 first part was easily accomplished with a simple if:
 
 ```csharp
@@ -77,15 +77,15 @@ The second part – waiting till it had finished – proved a bit harder
 however.  My initial thought was to use window.setTimeout to check later
 if the animation had finished.  However, the function supplied to
 setTimeout runs in the context of the ‘window’ object, so I didn’t have
-a reference to the ‘*this.\_onUpdated*’ or ‘*this.\_onUpdating*’ private
+a reference to the `this._onUpdated` or `this._onUpdating` private
 variables.  A quick Google lead me to [this page by K. Scott
 Allen](http://odetocode.com/blogs/scott/archive/2007/07/04/11067.aspx)
-which describes the use of the *call()* and *apply()* methods in
-JavaScript.  These methods are actually on the *function* object itself
+which describes the use of the `call()` and `apply()` methods in
+JavaScript.  These methods are actually on the \*function\* object itself
 and allow us to alter what ‘this’ refers to in a method call.  Very
 powerful – and definitely dangerous too – but exactly what I needed.  I
 added a new private method to the JavaScript class called
-*\_tryAndStopOnUpdating* as follows:
+`_tryAndStopOnUpdating` as follows:
 
 ```csharp
     _tryAndStopOnUpdating: function() {
@@ -101,7 +101,7 @@ added a new private method to the JavaScript class called
 ```
 
 Firstly, this method checks if the first animation is still playing, and
-if so uses *window.setTimeout* to wait 200ms before calling itself to
+if so uses `window.setTimeout` to wait 200ms before calling itself to
 check again.  The use of ‘apply’ here ensures that when the method is
 called again the ‘this’ keyword refers to our JavaScript class as
 expected.  Note that if I hadn’t saved ‘this’ to a local variable and
@@ -111,7 +111,7 @@ window object itself.
 
 All that remained was to add a new property to the server control to
 allow this alternative behaviour to be switched on or off and to modify
-the body of the \_*pageLoaded* method to call my new method like so:
+the body of the `_pageLoaded` method to call my new method like so:
 
 ```csharp
         if (this._postBackPending) {

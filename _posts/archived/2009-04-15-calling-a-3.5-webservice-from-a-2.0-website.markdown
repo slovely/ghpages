@@ -17,7 +17,7 @@ using v2.0 the response just contained a guid.  Once it was upgraded to
 v3.5 however, it returned an JSON object with a property called ‘d’ and
 the value of ‘d’ was the guid.
 
-##### How to fix
+### How to fix
 
 There are a couple of ways to get around this problem.  The easiest is
 probably to just upgrade the website to 3.5 as well, as then the

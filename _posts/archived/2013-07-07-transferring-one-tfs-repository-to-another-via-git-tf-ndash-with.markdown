@@ -24,26 +24,24 @@ prompt and have successfully installed
 [GIT-TF](http://gittf.codeplex.com/).  These instructions assume that
 you are using GIT Bash).
 
-##### Current TFS Repositories
+### Current TFS Repositories
 
 Our two TFS histories look like this (Old on the left, new on the
 right).  Of course, in reality the history on the left would be much
 bigger.  Notice that the latest commit on the new repository is removing
 all the files that TFS automatically adds – the build process templates
 etc.  You should also do this, as we want to start with the new
-repository empty. \
-[![image](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/image_thumb.png "image")](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/image.png)
+repository empty.
+[![image](/images/Transferring-one-TFS-repository-to-anoth_1153D/image_thumb.png "image")](/images/Transferring-one-TFS-repository-to-anoth_1153D/image.png)
 
-[![image](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/image_thumb_3.png "image")](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/image_3.png)
-\
+[![image](/images/Transferring-one-TFS-repository-to-anoth_1153D/image_thumb_3.png "image")](/images/Transferring-one-TFS-repository-to-anoth_1153D/image_3.png)
+
 Our new TFS server looks the same, but has no history apart from the
 auto-generated check-in's of the TF Build Automation and template
 files.  **You should delete this files from the New TFS repository now
 (and remember to check-in the deletes!).**
 
-##### 
-
-##### Clone the TFS repository's to GIT
+### Clone the TFS repository's to GIT
 
 Run these commands in a GIT prompt:
 
@@ -60,10 +58,10 @@ and NewTfs.  The NewTfs git repository should be empty, as per your new
 TFS repository.  Running git log on the OldTfs git repo should display
 your complete TFS checkin history.
 
-##### Remove link between GIT repository and TFS Changesets
+### Remove link between GIT repository and TFS Changesets
 
 [![git-tf
-file](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/git-tf-file_thumb.jpg "git-tf file")](http://blog.simonlovely.com/Transferring-one-TFS-repository-to-anoth_1153D/git-tf-file.jpg)
+file](/images/Transferring-one-TFS-repository-to-anoth_1153D/git-tf-file_thumb.jpg "git-tf file")](/images/Transferring-one-TFS-repository-to-anoth_1153D/git-tf-file.jpg)
 
 Now, as we need to pull in the ‘old’ GIT repository to the new one, we
 need to remove the details of the new TFS changesets that we’ve already
@@ -78,7 +76,7 @@ cd c/git/NewTfs
 git tf configure http://mynewserver:8080/tfs $/NewTfs
 ```
 
-##### Pull in the old GIT repository and push to new TFS
+### Pull in the old GIT repository and push to new TFS
 
 Next we need to add the old GIT repo as a remote in the new one, and
 then pull from it.  The important option is to specify “--rebase” to
@@ -100,6 +98,6 @@ git tf checkin --deep
 Remember the “--deep” option or only the latest changeset will be
 committed.  Once this is finished, you should be able to see your full
 TFS history displayed in the Source Control Explorer on your new server!
-\
+
 
 

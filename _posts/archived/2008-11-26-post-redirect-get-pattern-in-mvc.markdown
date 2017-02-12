@@ -14,7 +14,7 @@ Hawley](http://blog.eworldui.net/author/matthaw.aspx) this week, and
 have decided to use it in an MVC project I'm working on.  I have made a
 few changes to Matt's code however. 
 
-##### 1 - Use ModelBinders and ModelState to Simplify Code
+### 1 - Use ModelBinders and ModelState to Simplify Code
 
 Firstly, as the new version of MVC (the beta release) supports [Model
 Binders](http://weblogs.asp.net/scottgu/archive/2008/10/16/asp-net-mvc-beta-released.aspx),
@@ -58,15 +58,15 @@ public ActionResult Create()
 (You will want to wrap this boiler plate code up in a helper class or
 something though)
 
-##### 2. Fix Scenario where user input will be lost
+### 2. Fix Scenario where user input will be lost
 
 Secondly, I did find a small issue with the code as posted, when the
 user does the following:
 
-> GET the page with a form \
-> POST the form with invalid input \
-> REDIRECT back to the page (with the users input intact) \
-> REFRESH the page - the users input is now lost!
+* GET the page with a form
+* POST the form with invalid input
+* REDIRECT back to the page (with the users input intact)
+* REFRESH the page - the users input is now lost!
 
 I'm not sure this is a particularly common scenario, but losing the
 users input is never a good way to instil trust in your application! 
@@ -76,7 +76,7 @@ I thought about putting the value into Session instead, but then you'd
 have to come up with a strategy for removing the items at the right time
 (you wouldn't want the form to remember it's values from the last time
 it was used for instance).  In the end I decided that just putting the
-values *back into*****TempData would be the best solution.  This
+values *back into* TempData would be the best solution.  This
 requires the following line to be added to the Create action:
 
 ```csharp
