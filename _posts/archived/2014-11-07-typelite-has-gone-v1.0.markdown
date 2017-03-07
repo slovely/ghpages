@@ -44,7 +44,7 @@ video (apologies for the production qualities – please ensure you pick
 {% include youtubeplayer.html id="csZffHb8Sdw" %} 
 
 My [next
-post](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx)will
+post](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx) will
 document how I achieved this, and then I’ll document how to wire it into
 your build process.
 

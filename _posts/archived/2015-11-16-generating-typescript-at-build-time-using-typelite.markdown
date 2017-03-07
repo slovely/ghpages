@@ -24,7 +24,7 @@ a year later I’m still using this technique in a number of applications
 that have gone live, and it’s proved it’s worth.
 
 In the [previous episode](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx),
-we had a solution setup in which we could regenerate our TS interfaces
+ we had a solution setup in which we could regenerate our TS interfaces
 by running a command.  Now to make it generate on each build.
 
 ### Step One
@@ -32,7 +32,7 @@ by running a command.  Now to make it generate on each build.
 First step, we need to copy the TypeScriptGenerator EXE to a sensible
 location.  Unfortunately running it from the location it’s built in can
 cause file locking issues with VisualStudio.  As this project doesn’t
-change very often, I add a simple batch file to the project like this
+change very often, I add a simple batch file to the project like this 
 (see [this commit](https://github.com/slovely/TypeScriptSample/commit/7a708dc8541899365bee0e1cdf37ff2fb004be1f)):
 
     copy bin\debug\*.dll ..\Tools

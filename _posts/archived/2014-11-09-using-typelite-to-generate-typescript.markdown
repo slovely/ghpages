@@ -47,9 +47,9 @@ so I created a console app and using the TypeLite API directly. 
 ### Here’s what I did…
 
 *(You can follow along with my example using the repository
-at*[*https://github.com/slovely/TypeScriptSample*](https://github.com/slovely/TypeScriptSample "https://github.com/slovely/TypeScriptSample")*. 
+at [https://github.com/slovely/TypeScriptSample](https://github.com/slovely/TypeScriptSample "https://github.com/slovely/TypeScriptSample"). 
 The starting point for the example is
-this*[*commit*](https://github.com/slovely/TypeScriptSample/tree/7b7bac8f65613be3d28e405ea8c0da66b70268fd)*.)*
+this [commit](https://github.com/slovely/TypeScriptSample/tree/7b7bac8f65613be3d28e405ea8c0da66b70268fd)*.)
 
 First, you’ll need to separate the objects that are sent/received by
 your MVC/WebAPI actions (or, if you are crazy, your WebForms [WebMethod]
@@ -61,7 +61,7 @@ client/server is moved to the Models project (in my project, that’s just
 one item,
 [Person](https://github.com/slovely/TypeScriptSample/blob/7b7bac8f65613be3d28e405ea8c0da66b70268fd/src/TypeScriptSample.Web/Models/Person.cs)). 
 *[If you are following along see
-this*[*commit*](https://github.com/slovely/TypeScriptSample/commit/41ff4e8ce56bfe5bf08300db4e075587c9b7d4e1)*.]*
+this [commit](https://github.com/slovely/TypeScriptSample/commit/41ff4e8ce56bfe5bf08300db4e075587c9b7d4e1).]*)
 
 Next, create a new console application and use Nuget to add package
 [TypeLite.Lib](https://www.nuget.org/packages/TypeLite.Lib) (it might be
@@ -129,25 +129,17 @@ namespace TypeScriptSample.Generator
 }
 ```
 
-To run the console app on the sample application, the command line is: \
-TypeScriptSample.Generator.exe
-..\\..\\..\\TypeScriptSample.Models\\bin\\debug\\TypeScriptSample.Models.dll
-..\\..\\..\\TypeScriptSample.Web\\App\\server
+To run the console app on the sample application, the command line is:
+```
+TypeScriptSample.Generator.exe ..\\..\\..\\TypeScriptSample.Models\\bin\\debug\\TypeScriptSample.Models.dll ..\\..\\..\\TypeScriptSample.Web\\App\\server
+```
 
-[![image](http://blog.simonlovely.com/Images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_thumb.png "image")](http://blog.simonlovely.com/Images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image.png)…which
+[![image](/images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_thumb.png "image")](http://blog.simonlovely.com/Images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image.png)…which
 produces two files in the web project (after you’ve run the command for
 the first time, click show all files and include them in the web
 project).  *[See [this
 commit](https://github.com/slovely/TypeScriptSample/commit/4ec67d241f54e2b13caddf53a66327d2d6af1fb1)
 for the results]*
-
- 
-
- 
-
- 
-
- 
 
 Open the
 [classes.d.ts](https://github.com/slovely/TypeScriptSample/blob/4ec67d241f54e2b13caddf53a66327d2d6af1fb1/src/TypeScriptSample.Web/App/server/classes.d.ts)
@@ -162,7 +154,7 @@ In the web application there’s a simple TypeScript file that retrieves a
 list of Person objects from a WebAPI controller using ajax.  The current
 version of this looks like:
 
-```csharp
+```javascript
 function getPeople() {
     $.ajax({
         url: "api/person",
@@ -185,23 +177,7 @@ Then we get a great intellisense experience, as you can see below *[see
 [this
 commit](https://github.com/slovely/TypeScriptSample/commit/857dfc31e551b2020627a9226f615c4de5f18ae2)]*
 
-[![image](http://blog.simonlovely.com/Images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_thumb_3.png "image")](http://blog.simonlovely.com/Images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_3.png)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+[![image](/images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_thumb_3.png "image")](/images/LiveWriterUploaded/Generation-of-TypeScript-for_11FD1/image_3.png)
 
 That’s the basics done… However, if we add or rename a property on our
 server model, we have to manually re-run the generator app to get the
