@@ -1,2 +1,15 @@
+{% if page.categories %}
+  {% assign sorted_tags = (page.categories | sort:0) %}
+  {% for tag in sorted_tags %}
+      <a href="/categories/#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
+{% endif %}
 
-{{ page.categories | join: ', ' }}{{ post.categories | join: ', ' }}
+{% if post.categories %}
+  {% assign sorted_post_tags = (post.categories | sort:0) %}
+  {% for tag in sorted_post_tags %}
+      <a href="/categories/#{{ tag | slugify }}" class="post-tag"> {{ tag }}</a>
+  {% endfor %}
+{% endif %}
+
+

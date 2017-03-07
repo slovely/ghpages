@@ -40,3 +40,37 @@ article .meta {
 }
 #page-navigation div { display: inline-block }
 #page-navigation div.next { float: right }
+
+.tags-expo .tags-expo-list {
+    font-size: 0.9rem;
+}
+
+.tags-expo .tags-expo-list .post-tag {
+    margin: .2em .3em;
+}
+
+.post-tag {
+    display: inline-block;
+    background: rgba(106,159,181,0.15);
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border-radius: 4px;
+    color: #6a9fb5;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-size: 90%;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.post-tag:before {
+    content: "\f02b";
+    font-family: FontAwesome;
+    padding-right: .5em;
+}
+
+.post-tag:hover {
+    text-decoration: none;
+    background: #6a9fb5;
+    color: #fff;
+}
