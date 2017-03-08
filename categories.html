@@ -13,15 +13,19 @@ title: Categories
   <hr/>
   <div class="tags-expo-section">
     {% for tag in sorted_tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
+        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+        </a>&nbsp;
+        <span class="meta">
+          <small class="date">
+            <time datetime="{{ post.date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %e, %Y" }}</time>
+          </small>
+        </span>
       </li>
-      </a>
       {% endfor %}
     </ul>
     {% endfor %}

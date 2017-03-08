@@ -29,10 +29,10 @@ package](https://www.nuget.org/packages/TypeLite) now!
 
 From the [website](http://type.litesolutions.net/):
 
-> *“TypeLITE is a utility that
+> TypeLITE is a utility that
 > generates [TypeScript](http://www.typescriptlang.org/) definitions
 > from .NET classes. It supports all major features of the current
-> TypeScript specification, including modules and inheritance.”
+> TypeScript specification, including modules and inheritance.
 
 I am happy to say I was able to add support for a [reasonable support of
 generics](https://bitbucket.org/LukasKabrt/typelite/issue/47/handling-of-generic-classes)
@@ -43,8 +43,7 @@ video (apologies for the production qualities – please ensure you pick
 
 {% include youtubeplayer.html id="csZffHb8Sdw" %} 
 
-My [next
-post](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx) will
+My [next post](http://blog.simonlovely.com/archive/2014/11/09/using-typelite-to-generate-typescript.aspx) will
 document how I achieved this, and then I’ll document how to wire it into
 your build process.
 
